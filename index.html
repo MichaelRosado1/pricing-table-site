@@ -46,6 +46,17 @@
 
     </div>
 
+<script>
+    let anchor = document.getElementsByTagName('a');
+    let currentSelected = anchor[1];
+    for (let i = 0; i < anchor.length; i++) {
+        anchor[i].addEventListener('click', function() {
+            currentSelected.classList.toggle('is-featured');
+            this.classList.toggle('is-featured')
+            currentSelected = this;
+        })
+    }
+</script>
 </body>
 
 </html>
