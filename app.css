@@ -57,6 +57,20 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
+#viewMoreButton {
+    border: none;
+    color: #016ff9;
+    background: none;
+    cursor:pointer;
+    outline:inherit;
+    padding: 0;
+}
+
+#moreText {
+    display: none;
+}
+
 .panel {
     background: white;
     border-radius: 10px;
